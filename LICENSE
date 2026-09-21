@@ -1,0 +1,39 @@
+Copyright (c) 2026 SirBiggieCheese. All rights reserved.
+
+DOOM: The Dark Ages — Ultimate Mod Tool
+
+This software is published so that players can read what they are running and
+so that the mods it produces can be understood and trusted. It is NOT released
+into the public domain and is not open source.
+
+YOU MAY:
+  - download, install and use this tool, for free, for any personal purpose,
+    including making mods you then publish yourself
+  - read and study the source
+  - modify your own copy for your own use
+  - link to this repository or to the tool's Nexus Mods page
+
+YOU MAY NOT, without written permission from the copyright holder:
+  - redistribute this tool or any modified version of it, in whole or in part,
+    including reuploading it to Nexus Mods or any other site
+  - publish a derivative tool based on this source
+  - sell it, put it behind a paywall, or bundle it with anything paid
+  - remove or alter the author credit
+
+MODS YOU MAKE ARE YOURS. Textures, skins and mod packages produced with this
+tool belong to whoever made them, and this licence places no claim on them.
+
+THIRD-PARTY CONTENT
+This tool builds on the work of others, credited in the in-app Credits screen.
+It interoperates with the Atlan Mod Packager and Atlan Mod Loader by
+FlavorfulGecko5, which are separate projects under their own terms.
+DOOM: The Dark Ages, its assets, material names and trademarks are the property
+of id Software and ZeniMax Media. This is an unofficial fan tool, not affiliated
+with, endorsed by, or connected to id Software, Bethesda or ZeniMax.
+
+NO WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. THE AUTHOR IS NOT LIABLE FOR ANY CLAIM, DAMAGE OR OTHER LIABILITY
+ARISING FROM THE USE OF THIS SOFTWARE, INCLUDING ANY DAMAGE TO GAME FILES OR
+SAVE DATA. Back up your game and use the Atlan Mod Loader's verify/restore
+options if something goes wrong.

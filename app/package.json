@@ -1,0 +1,54 @@
+{
+  "name": "doom-skin-builder",
+  "productName": "DTDA Ultimate Mod Tool",
+  "version": "0.2.8",
+  "description": "DOOM: The Dark Ages Ultimate Mod Tool - offline mod creator (textures, weapon stats, HUD)",
+  "author": "SirBiggieCheese",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win"
+  },
+  "devDependencies": {
+    "electron": "^31.7.7",
+    "electron-builder": "^24.13.3",
+    "rcedit": "^5.0.2"
+  },
+  "build": {
+    "appId": "com.mason.doomskinbuilder",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "icon.ico",
+      "icon.png"
+    ],
+    "extraResources": [
+      {
+        "from": "..",
+        "to": "app",
+        "filter": [
+          "assets/**",
+          "content/**",
+          "data/**",
+          "index.html",
+          "tools/**"
+        ]
+      }
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": false,
+      "artifactName": "DTDA-Mod-Tool-Setup-${version}.exe",
+      "shortcutName": "DTDA Mod Tool",
+      "uninstallDisplayName": "DTDA Ultimate Mod Tool ${version}"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+# Line-ending conversion is disabled for the whole tree, deliberately.
+# .decl files are read byte-exactly by the Atlan packager and the game; normalising them would
+# corrupt mods silently. Nothing here benefits from normalisation.
+* -text
